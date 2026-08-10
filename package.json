@@ -1,6 +1,6 @@
 {
-  "name": "blue-hello-button",
-  "version": "1.0.0",
+  "name": "hello-world-button",
+  "version": "1.0.2",
   "description": "A simple blue button component that logs 'hello world' on click",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
