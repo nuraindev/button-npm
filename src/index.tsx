@@ -1,22 +1,21 @@
-import React from "react";
+import {Text, TouchableOpacity} from "react-native"
 
-export function BlueHelloButton() {
+
+export function HellowWorldButton() {
   return (
-    <button
-      onClick={() => console.log("hello world")}
-      style={{
-        backgroundColor: "blue",
-        color: "white",
-        border: "none",
-        padding: "10px 20px",
-        borderRadius: "4px",
-        cursor: "pointer",
-        fontSize: "16px",
-      }}
-    >
-      hi
-    </button>
+    <TouchableOpacity
+    onPress={() => console.log('Hello World')}
+    style={{
+          backgroundColor:"#3677BC" ,
+          borderRadius: 6,
+          padding: 14,
+          alignItems: "center",
+        }}
+        > <Text style={{ color: "white", fontWeight: "600" }}>{"hello"}</Text>
+
+        
+    </TouchableOpacity>
   );
 }
 
-export default BlueHelloButton;
+export default HellowWorldButton;

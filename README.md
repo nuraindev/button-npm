@@ -13,10 +13,10 @@ npm install hello-world-button
 ## Usage
 
 ```jsx
-import { BlueHelloButton } from "hello-world-button";
+import { HellowWorldButton } from "hello-world-button";
 
 function App() {
-  return <BlueHelloButton />;
+  return <HellowWorldButton />;
 }
 
 export default App;
