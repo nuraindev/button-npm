@@ -1,11 +1,11 @@
-# blue-hello-button
+# hello-world-button
 
 A simple blue button React component that displays "hi" and logs "hello world" to the console when clicked.
 
 ## Installation
 
 ```bash
-npm install blue-hello-button
+npm install hello-world-button
 ```
 
 **Peer dependencies:** React 17+ and ReactDOM 17+ must be installed in your project.
@@ -13,7 +13,7 @@ npm install blue-hello-button
 ## Usage
 
 ```jsx
-import { BlueHelloButton } from "blue-hello-button";
+import { BlueHelloButton } from "hello-world-button";
 
 function App() {
   return <BlueHelloButton />;
